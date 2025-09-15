@@ -1,0 +1,14 @@
+Lab: Unprotected admin functionality
+
+This Lab have the unprocted admin panel
+
+End Goal
+    Delete the user carlos
+
+Analysis:
+    As this is first lab its easy delete the user without login as admin
+    fuzz the website using the related names like
+        admin 
+        administrator
+        admin-panel
+        administrator-panel  // this will redirects to the admin panel from that we can able to delete the user carlos
